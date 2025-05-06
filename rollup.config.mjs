@@ -11,7 +11,7 @@ export default {
     input: 'src/index.js',
     output: {
         file: 'dist/bundle.js',
-        format: 'iife', // Suitable for <script> tags in browsers
+        format: 'cjs', // Suitable for <script> tags in browsers
     },
     plugins: [
         sass({ output: 'dist/styles.css' }), // Output CSS to a file

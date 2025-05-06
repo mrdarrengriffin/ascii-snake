@@ -1,0 +1,26 @@
+$colors: (
+    x: #646464,
+);
+
+.snake-wrapper {
+    --size: 32px;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: var(--size);
+    line-height: var(--size);
+    //letter-spacing: 14.4px;
+    letter-spacing: calc(var(--size) * 0.45);
+    color: #646464;
+
+
+    span {
+        color: white;
+
+        &[data-c="$"]{
+            color: gold;
+        }
+    }
+}

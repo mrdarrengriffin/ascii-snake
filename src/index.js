@@ -1,2 +1,9 @@
 import "./scss/index.scss";
-import "./js/test.js";
+
+import {Game} from "./js/game.js"
+
+Game.init();
+
+
+
+
