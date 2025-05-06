@@ -1,4 +1,4 @@
-import { ARENA_COLS, ARENA_ROWS, ARENA_TILE_X, GAME_STATES, TILE_CHARS, WRAPPER_ELEM } from "./constants";
+import { ARENA_COLS, ARENA_ROWS, GAME_STATES, TILE_CHARS, WRAPPER_ELEM } from "./constants";
 
 export const Game = {
     currentArena: [],
